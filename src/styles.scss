@@ -20,7 +20,7 @@ $getstream-warn: mat.define-palette(mat.$red-palette);
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
-$getstream-theme: mat.define-light-theme((color: (primary: $getstream-primary,
+$getstream-theme: mat.define-dark-theme((color: (primary: $getstream-primary,
       accent: $getstream-accent,
       warn: $getstream-warn,
     )));

@@ -6,9 +6,16 @@
           "get-stream-io-decoded"
         ]
       }
+    },
+    "chat-exmple-get-stream": {
+      "hosting": {
+        "getstream-chat-angular-example": [
+          "chat-exmple-get-stream"
+        ]
+      }
     }
   },
   "projects": {
-    "default": "get-stream-io-decoded"
+    "default": "chat-exmple-get-stream"
   }
 }
