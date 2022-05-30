@@ -1,4 +1,4 @@
-<app-form-container title="Create Account">
+
   <form [formGroup]="form" class="form" (submit)="signUp()">
     <mat-form-field class="form-field">
       <mat-label>Display Name</mat-label>
@@ -17,6 +17,6 @@
     </mat-form-field>
 
     <button mat-raised-button color="accent" [disabled]="form.invalid">Create Account</button>
-    <a routerLink="/signin" class="mat-caption goto-link">Already have an account? Go to signin</a>
+    <a routerLink="/signin" class="mat-caption goto-link" style="color: white; letter-spacing: 2px">Already have an account? Go to sign in</a>
   </form>
-</app-form-container>
+

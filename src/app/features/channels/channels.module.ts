@@ -8,6 +8,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { InviteButtonComponent } from './invite-button/invite-button.component';
 import { StreamChatModule } from 'stream-chat-angular';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import {MatIconModule} from '@angular/material/icon';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
     MatButtonModule,
     ReactiveFormsModule,
     StreamChatModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatIconModule
   ],
   exports: [
     NewChannelComponent,
