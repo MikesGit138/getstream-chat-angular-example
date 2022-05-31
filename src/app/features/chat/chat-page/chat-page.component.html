@@ -1,7 +1,7 @@
 <app-new-channel (saved)="onCreate($event)"></app-new-channel>
 <stream-channel-list></stream-channel-list>
 
-<section class="chat" *ngIf="chatIsReady$ | async; else unavailable">
+<section class="chat" *ngIf="chatIsReady$ | async">
 <!-- <section class="chat" *ngIf="chatIsReady$"> -->
     <stream-channel>
         <stream-channel-header></stream-channel-header>
@@ -11,9 +11,9 @@
     </stream-channel>
 </section>
 
-<ng-template #unavailable>
+<!-- <ng-template #unavailable>
     <div class="chat-notification">Chat is not available...</div>
-</ng-template>
+</ng-template> -->
 
 
 
