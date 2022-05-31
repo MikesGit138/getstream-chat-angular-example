@@ -2,6 +2,7 @@
 <stream-channel-list></stream-channel-list>
 
 <section class="chat" *ngIf="chatIsReady$ | async; else unavailable">
+<!-- <section class="chat" *ngIf="chatIsReady$"> -->
     <stream-channel>
         <stream-channel-header></stream-channel-header>
        <stream-message-list></stream-message-list>
