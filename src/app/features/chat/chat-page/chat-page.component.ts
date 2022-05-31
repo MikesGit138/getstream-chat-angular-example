@@ -45,9 +45,9 @@ export class ChatPageComponent implements OnInit, AfterViewInit {
     )
   }
   ngAfterViewInit(): void {
-      this.customTemplatesService.channelPreviewTemplate$.next(
-        this.channelPreview
-      )
+      // this.customTemplatesService.channelPreviewTemplate$.next(
+      //   this.channelPreview
+      // )
       this.customTemplatesService.channelActionsTemplate$.next(
         this.channelActionsTemplate
       )
