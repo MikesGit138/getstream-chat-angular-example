@@ -2,8 +2,7 @@ import { Component, OnInit, ChangeDetectionStrategy, ViewChild, TemplateRef, Aft
 import { catchError, Observable, of, switchMap, map, from } from 'rxjs';
 import { Channel } from 'stream-chat';
 import { ChannelActionsContext, ChannelPreviewContext, ChannelService, ChatClientService, CustomTemplatesService, DefaultStreamChatGenerics, StreamI18nService } from 'stream-chat-angular';
-// import { environment } from '../../../../environments/environment';
-import { environment } from '../../../../environments/environment.prod';
+import { environment } from '../../../../environments/environment';
 import { AuthService } from '../../auth/auth.service';
 
 @Component({
