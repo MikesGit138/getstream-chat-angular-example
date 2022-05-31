@@ -1,6 +1,6 @@
 import * as functions from "firebase-functions";
 import * as admin from 'firebase-admin';
-const cors = require('cors')({origin: 'https://chat-exmple-get-stream.web.app'})
+const cors = require('cors')({origin: true})
 const StreamChat = require('stream-chat').StreamChat;
 
 const serverStreamClient = StreamChat.getInstance(
