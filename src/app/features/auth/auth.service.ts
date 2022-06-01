@@ -37,7 +37,6 @@ export class AuthService {
         updateProfile(user, { displayName }),
         this.http.post(
           `${environment.apiUrl}/createStreamUser`, 
-          // 'https://us-central1-chat-exmple-get-stream.cloudfunctions.net/createStreamUser',
           { user: {...user, displayName } })
       ])),
     );

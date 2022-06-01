@@ -11,7 +11,7 @@ export const environment = {
     authDomain: 'chat-exmple-get-stream.firebaseapp.com',
     messagingSenderId: '289855459055',
   },
-  production: false,
+  production: true,
   apiUrl: 'https://us-central1-chat-exmple-get-stream.cloudfunctions.net',
   stream: {
     key: 'g37f5ewacmrg'
